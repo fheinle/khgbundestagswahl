@@ -1,3 +1,17 @@
-#site-header {
+.sticky-shrinknav-header {
     z-index:1;
+    background-color: $white;
+}
+.sticky-shrinknav-header-title {
+    color: $primary-color;
+}
+.sticky-shrinknav-menu {
+    background-color: $white;
+    a {
+        color: $medium-gray;
+        &:hover {
+            background-color: $medium-gray;
+            color: #FFFFFF;
+        }
+    }
 }
